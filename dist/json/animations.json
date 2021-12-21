@@ -1,0 +1,7 @@
+{
+  "transition-app-01": "0.15s ease-in-out",
+  "transition-app-02": "0.3s ease-in-out",
+  "transition-app-03": "0.45s ease-in-out",
+  "transition-app-04": "3s ease-in-out",
+  "transition-app-05": "0.75s cubic-bezier(1, 0.21, 0.71, 0.69)"
+}
