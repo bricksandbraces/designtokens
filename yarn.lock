@@ -147,6 +147,44 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@openbricksandbraces/designtokens@^0.0.1, @openbricksandbraces/designtokens@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@openbricksandbraces/designtokens@workspace:."
+  dependencies:
+    "@openbricksandbraces/designtokens": ^0.0.1
+    eslint: ^8.4.0
+    eslint-config-airbnb: ^19.0.2
+    eslint-config-airbnb-base: ^15.0.0
+    eslint-config-airbnb-typescript: ^16.1.0
+    eslint-config-prettier: ^8.3.0
+    eslint-plugin-import: ^2.25.3
+    eslint-plugin-jest: ^25.3.0
+    eslint-plugin-jsx-a11y: ^6.5.1
+    postcss: ^8.4.4
+    postcss-calc: ^8.0.0
+    postcss-cli: ^9.0.2
+    postcss-each: ^1.1.0
+    postcss-each-variables: ^0.3.0
+    postcss-flexbugs-fixes: ^5.0.2
+    postcss-hexrgba: "github:hudochenkov/postcss-hexrgba#migrate-to-postcss-8"
+    postcss-import: ^14.0.2
+    postcss-mixins: ^8.1.0
+    postcss-nested: ^5.0.6
+    postcss-normalize: ^10.0.1
+    postcss-preset-env: ^7.0.1
+    postcss-simple-vars: ^6.0.3
+    postcss-size: ^4.0.1
+    postcss-utilities: ^0.8.4
+    postcss-viewport-height-correction: ^1.1.1
+    prettier: ^2.5.1
+    stylelint: ^14.1.0
+    stylelint-config-prettier: ^9.0.3
+    stylelint-config-property-sort-order-smacss: ^8.0.0
+    stylelint-config-standard: ^24.0.0
+    stylelint-prettier: ^2.0.0
+  languageName: unknown
+  linkType: soft
+
 "@tootallnate/once@npm:1":
   version: 1.1.2
   resolution: "@tootallnate/once@npm:1.1.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40tootallnate%2Fonce%2F-%2Fonce-1.1.2.tgz"
@@ -950,43 +988,6 @@ __metadata:
   checksum: 477204beaa9be69e642bc31ffe7a8c383d0cf48fa27acbc91c5df01431ab913e65c154213d2ef83d034c98d77280743ec85e5da018a97a18dd43d3c0b78b28cd
   languageName: node
   linkType: hard
-
-"designtokens@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "designtokens@workspace:."
-  dependencies:
-    eslint: ^8.4.0
-    eslint-config-airbnb: ^19.0.2
-    eslint-config-airbnb-base: ^15.0.0
-    eslint-config-airbnb-typescript: ^16.1.0
-    eslint-config-prettier: ^8.3.0
-    eslint-plugin-import: ^2.25.3
-    eslint-plugin-jest: ^25.3.0
-    eslint-plugin-jsx-a11y: ^6.5.1
-    postcss: ^8.4.4
-    postcss-calc: ^8.0.0
-    postcss-cli: ^9.0.2
-    postcss-each: ^1.1.0
-    postcss-each-variables: ^0.3.0
-    postcss-flexbugs-fixes: ^5.0.2
-    postcss-hexrgba: "github:hudochenkov/postcss-hexrgba#migrate-to-postcss-8"
-    postcss-import: ^14.0.2
-    postcss-mixins: ^8.1.0
-    postcss-nested: ^5.0.6
-    postcss-normalize: ^10.0.1
-    postcss-preset-env: ^7.0.1
-    postcss-simple-vars: ^6.0.3
-    postcss-size: ^4.0.1
-    postcss-utilities: ^0.8.4
-    postcss-viewport-height-correction: ^1.1.1
-    prettier: ^2.5.1
-    stylelint: ^14.1.0
-    stylelint-config-prettier: ^9.0.3
-    stylelint-config-property-sort-order-smacss: ^8.0.0
-    stylelint-config-standard: ^24.0.0
-    stylelint-prettier: ^2.0.0
-  languageName: unknown
-  linkType: soft
 
 "dir-glob@npm:^3.0.1":
   version: 3.0.1

@@ -1,5 +1,5 @@
 {
-  "name": "designtokens",
+  "name": "@openbricksandbraces/designtokens",
   "version": "0.0.1",
   "description": "Awesome design tokens for the Bricks & Braces brand.",
   "repository": "git://github.com/bricksandbraces/designtokens.git",
@@ -52,5 +52,8 @@
   },
   "author": "moin@bricksandbraces.com",
   "license": "UNLICENSED",
-  "packageManager": "yarn@3.1.1"
+  "packageManager": "yarn@3.1.1",
+  "dependencies": {
+    "@openbricksandbraces/designtokens": "^0.0.1"
+  }
 }
