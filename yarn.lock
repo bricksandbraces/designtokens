@@ -147,11 +147,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@openbricksandbraces/designtokens@^0.0.1, @openbricksandbraces/designtokens@workspace:.":
+"@openbricksandbraces/designtokens@workspace:.":
   version: 0.0.0-use.local
   resolution: "@openbricksandbraces/designtokens@workspace:."
   dependencies:
-    "@openbricksandbraces/designtokens": ^0.0.1
     eslint: ^8.5.0
     eslint-config-airbnb: ^19.0.2
     eslint-config-airbnb-base: ^15.0.0
