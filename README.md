@@ -69,6 +69,16 @@ All colors used by Bricks & Braces.
 
 - Transitions
 
+### Generate new tokens
+
+The PCSS tokens are generated from JSON tokens. Modify the JSON tokens for your purpose and then use the generation command to create the synched pcss.
+
+```bash
+yarn task:generate-pcss-tokens
+```
+
+which will regenerate all files and format them correctly.
+
 ### Other commands
 
 ```bash
