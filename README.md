@@ -15,25 +15,29 @@ Then import the definitions of your need into your project.
 **Mind** that you will have to configure a postcss plugin matching our variable definitions e.g. [postcss-simple-vars](https://github.com/postcss/postcss-simple-vars) as well as an import plugin most commonly [postcss-import](https://github.com/postcss/postcss-import).
 
 CSS:
+
 ```css
-@import "@openbricksandbraces/designtokens/dist/pcss/colors.pcss"
+@import "@openbricksandbraces/designtokens/dist/pcss/colors.pcss";
 ```
 
 JS:
+
 ```js
-import "@openbricksandbraces/designtokens/dist/json/colors.json"
+import colors from "@openbricksandbraces/designtokens/dist/json/colors.json";
 ```
 
 To import all definitions, simply import the index file.
 
 CSS:
+
 ```css
-@import "@openbricksandbraces/designtokens/dist/pcss/index.css"
+@import "@openbricksandbraces/designtokens/dist/pcss/index.css";
 ```
 
-JS: 
+JS:
+
 ```js
-import "@openbricksandbraces/designtokens/dist/json/index.json"
+import tokens from "@openbricksandbraces/designtokens/dist/json/index.json";
 ```
 
 ## Ingredients
