@@ -152,7 +152,7 @@ __metadata:
   resolution: "@openbricksandbraces/designtokens@workspace:."
   dependencies:
     "@openbricksandbraces/designtokens": ^0.0.1
-    eslint: ^8.4.0
+    eslint: ^8.5.0
     eslint-config-airbnb: ^19.0.2
     eslint-config-airbnb-base: ^15.0.0
     eslint-config-airbnb-typescript: ^16.1.0
@@ -160,9 +160,9 @@ __metadata:
     eslint-plugin-import: ^2.25.3
     eslint-plugin-jest: ^25.3.0
     eslint-plugin-jsx-a11y: ^6.5.1
-    postcss: ^8.4.4
+    postcss: ^8.4.5
     postcss-calc: ^8.0.0
-    postcss-cli: ^9.0.2
+    postcss-cli: ^9.1.0
     postcss-each: ^1.1.0
     postcss-each-variables: ^0.3.0
     postcss-flexbugs-fixes: ^5.0.2
@@ -171,13 +171,13 @@ __metadata:
     postcss-mixins: ^8.1.0
     postcss-nested: ^5.0.6
     postcss-normalize: ^10.0.1
-    postcss-preset-env: ^7.0.1
+    postcss-preset-env: ^7.1.0
     postcss-simple-vars: ^6.0.3
     postcss-size: ^4.0.1
     postcss-utilities: ^0.8.4
     postcss-viewport-height-correction: ^1.1.1
     prettier: ^2.5.1
-    stylelint: ^14.1.0
+    stylelint: ^14.2.0
     stylelint-config-prettier: ^9.0.3
     stylelint-config-property-sort-order-smacss: ^8.0.0
     stylelint-config-standard: ^24.0.0
@@ -657,10 +657,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.30001272, caniuse-lite@npm:^1.0.30001286, caniuse-lite@npm:^1.0.30001287":
+"caniuse-lite@npm:^1.0.30001272, caniuse-lite@npm:^1.0.30001286":
   version: 1.0.30001291
   resolution: "caniuse-lite@npm:1.0.30001291::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcaniuse-lite%2F-%2Fcaniuse-lite-1.0.30001291.tgz"
   checksum: ae24be79227036564ccd2ab8a0be8793a2e650941607a9f3e68a967db08d90cf17ded0382c2ce87063051b7200e618ec83bdb12f423ed60665922dc4d8eb8f78
+  languageName: node
+  linkType: hard
+
+"caniuse-lite@npm:^1.0.30001291":
+  version: 1.0.30001292
+  resolution: "caniuse-lite@npm:1.0.30001292::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcaniuse-lite%2F-%2Fcaniuse-lite-1.0.30001292.tgz"
+  checksum: 930d02514769243f26033919f56536a307db83bba933374e6955c6678878fe8a8105051796868947d230f31d237b782fa2cf7390b84b69b555077add12469966
   languageName: node
   linkType: hard
 
@@ -1321,7 +1328,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8.4.0":
+"eslint@npm:^8.5.0":
   version: 8.5.0
   resolution: "eslint@npm:8.5.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Feslint%2F-%2Feslint-8.5.0.tgz"
   dependencies:
@@ -3009,7 +3016,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-cli@npm:^9.0.2":
+"postcss-cli@npm:^9.1.0":
   version: 9.1.0
   resolution: "postcss-cli@npm:9.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-cli%2F-%2Fpostcss-cli-9.1.0.tgz"
   dependencies:
@@ -3417,13 +3424,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-preset-env@npm:^7.0.1":
-  version: 7.0.2
-  resolution: "postcss-preset-env@npm:7.0.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-preset-env%2F-%2Fpostcss-preset-env-7.0.2.tgz"
+"postcss-preset-env@npm:^7.1.0":
+  version: 7.1.0
+  resolution: "postcss-preset-env@npm:7.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss-preset-env%2F-%2Fpostcss-preset-env-7.1.0.tgz"
   dependencies:
     autoprefixer: ^10.4.0
     browserslist: ^4.19.1
-    caniuse-lite: ^1.0.30001287
+    caniuse-lite: ^1.0.30001291
     css-blank-pseudo: ^3.0.0
     css-has-pseudo: ^3.0.0
     css-prefers-color-scheme: ^6.0.0
@@ -3458,7 +3465,7 @@ __metadata:
     postcss: ^8.3
   bin:
     postcss-preset-env: dist/cli.mjs
-  checksum: 198a90f35f4d7ea88cb035e89ecb7c9009c528f8e0cffc44670d18e07bbc362f9eb486fd329f57043e1530862032cade3f4ff5df6bfd8e99b371d508b9e0173e
+  checksum: b7d128ca1cae90a6c351d1a7705108c99710264f2b7c13ea47964fd96f0e2a33889d4c7bc24a8c6d5bc095c3d6d360367fbdc65ce1072836ac7dd854e8afedbc
   languageName: node
   linkType: hard
 
@@ -3611,7 +3618,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.1.6, postcss@npm:^8.3.11, postcss@npm:^8.4.4":
+"postcss@npm:^8.1.6, postcss@npm:^8.3.11, postcss@npm:^8.4.5":
   version: 8.4.5
   resolution: "postcss@npm:8.4.5::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fpostcss%2F-%2Fpostcss-8.4.5.tgz"
   dependencies:
@@ -4223,7 +4230,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint@npm:^14.1.0":
+"stylelint@npm:^14.2.0":
   version: 14.2.0
   resolution: "stylelint@npm:14.2.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fstylelint%2F-%2Fstylelint-14.2.0.tgz"
   dependencies:
