@@ -16,7 +16,7 @@
   "font-marketing-02-size": "clamp(2.49rem, 2.08rem + 2.02vw, 4.21rem)",
   "font-quote-01-size": "clamp(2.07rem, 1.82rem + 1.28vw, 3.16rem)",
   "font-quote-02-size": "clamp(2.07rem, 1.82rem + 1.28vw, 3.16rem)",
-  "font-code-size": "clamp(2.07rem, 1.82rem + 1.28vw, 3.16rem)",
+  "font-code-size": "clamp(0.875rem, 0.875rem + 0vw, 0.875rem)",
 
   "font-caption-weight": "normal",
   "font-label-weight": "normal",
