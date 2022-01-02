@@ -1,4 +1,7 @@
 {
+  "border": "0.0625rem solid",
+  "border-dashed": "0.0625rem dashed",
+
   "container-01": "1rem",
   "container-02": "1.5rem",
   "container-03": "2rem",
