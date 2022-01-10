@@ -38,7 +38,7 @@
   "radius-02": "0.25rem",
   "radius-03": "0.5rem",
 
-  "shadow-01": "0 0.125rem 0.125rem 0 rgba(0, 0, 0, 8%)",
+  "shadow-01": "0 0.0625rem 0.125rem 0 rgba(0, 0, 0, 8%)",
   "shadow-02": "0 0.125rem 0.5rem 0 rgba(0, 0, 0, 10%)",
   "shadow-03": "0 0.125rem 1rem 0 rgba(0, 0, 0, 12%)",
 
