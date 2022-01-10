@@ -38,12 +38,9 @@
   "radius-02": "0.25rem",
   "radius-03": "0.5rem",
 
-  "shadow-01": "0 0.125rem 0.25rem 0 rgba(0, 0, 0, 10%)",
-  "shadow-02": "0 0.125rem 0.5rem 0 rgba(0, 0, 0, 15%)",
-  "shadow-03": "0 0.125rem 0.75rem 0 rgba(0, 0, 0, 20%)",
-  "shadow-04": "0 0.125rem 1rem 0 rgba(0, 0, 0, 25%)",
-  "shadow-05": "0 0.125rem 1.25rem 0 rgba(0, 0, 0, 30%)",
-  "shadow-06": "0 0.125rem 1.5rem 0 rgba(0, 0, 0, 35%)",
+  "shadow-01": "0 0.125rem 0.125rem 0 rgba(0, 0, 0, 8%)",
+  "shadow-02": "0 0.125rem 0.5rem 0 rgba(0, 0, 0, 10%)",
+  "shadow-03": "0 0.125rem 1rem 0 rgba(0, 0, 0, 12%)",
 
   "overlay": "rgba(0, 0, 0, 60%)"
 }
