@@ -14,7 +14,10 @@ function generateTokensForJSON(fileName, jsonData) {
   fs.writeFileSync(__dirname + `/../dist/pcss/${fileName}.pcss`, output);
 }
 
-generateTokensForJSON("colors", require("../dist/json/colors.json"));
-generateTokensForJSON("metrics", require("../dist/json/metrics.json"));
-generateTokensForJSON("typography", require("../dist/json/typography.json"));
 generateTokensForJSON("animations", require("../dist/json/animations.json"));
+generateTokensForJSON("borders", require("../dist/json/borders.json"));
+generateTokensForJSON("breakpoints", require("../dist/json/breakpoints.json"));
+generateTokensForJSON("colors", require("../dist/json/colors.json"));
+generateTokensForJSON("shadows", require("../dist/json/shadows.json"));
+generateTokensForJSON("sizes", require("../dist/json/sizes.json"));
+generateTokensForJSON("typography", require("../dist/json/typography.json"));

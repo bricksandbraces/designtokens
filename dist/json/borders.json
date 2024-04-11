@@ -1,0 +1,8 @@
+{
+  "divider": "0.5px",
+  "component": "0.5px",
+  "component-status": "1px",
+  "button": "1px",
+  "drag_drop_enabled": "1px",
+  "drag_drop_disabled": "2px"
+}

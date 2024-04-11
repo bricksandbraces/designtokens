@@ -7,20 +7,10 @@
     "__CONFIG__": true,
     "__ENV__": true
   },
-  "plugins": [
-    "@typescript-eslint",
-    "import",
-    "react",
-    "jsx-a11y",
-    "jest",
-    "storybook"
-  ],
+  "plugins": ["import", "react", "jsx-a11y"],
   "extends": [
-    "airbnb-typescript",
     "plugin:import/recommended",
     "plugin:jsx-a11y/recommended",
-    "plugin:storybook/recommended",
-    "plugin:jest/recommended",
     "plugin:react/recommended",
     "prettier"
   ],
@@ -29,7 +19,6 @@
       "version": "detect"
     }
   },
-  "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaVersion": 2020,
     "project": "./tsconfig.json"
@@ -37,7 +26,6 @@
   "rules": {
     "import/no-cycle": "off",
     "arrow-body-style": "off",
-    "@typescript-eslint/indent": "off",
     "jsx-a11y/accessible-emoji": "off", // deprecated
     "jsx-a11y/label-has-associated-control": "off", // not working
     "react/require-default-props": "off", // not working
@@ -70,7 +58,6 @@
     "react/prop-types": "off",
     "radix": ["error", "as-needed"],
     "quotes": "off",
-    "@typescript-eslint/quotes": ["error", "double"],
     "comma-dangle": ["error", "never"]
   }
 }
