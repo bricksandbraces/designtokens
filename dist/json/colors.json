@@ -1,4 +1,6 @@
 {
+  "white": "#fff",
+  "black": "#fff",
   "neutral-white": "#fff",
   "neutral-black": "#000",
   "overlay": "rgba(0, 0, 0, 60%)",
