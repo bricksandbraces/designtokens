@@ -14,6 +14,8 @@
   "opacity-neutral-gray-5-70%": "rgba(12, 12, 13, 0.7)",
   "opacity-neutral-white-0%": "rgba(255, 255, 255, 0)",
   "opacity-neutral-brand-50-15%": "rgba(84, 0, 255, 0.15)",
+  "opacity-neutral-white-10%": "rgba(255, 255, 255, 0.1)",
+  "opacity-neutral-white-5%": "rgba(255, 255, 255, 0.05)",
 
   "blue-5": "#000f1a",
   "blue-10": "#001e33",
